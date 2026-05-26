@@ -1,0 +1,46 @@
+.glass-card {
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 16px;
+  padding: 1.5rem 2rem;
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  width: 100%;
+  max-width: 480px;
+  text-align: center;
+}
+
+.header h1 {
+  font-size: 2rem;
+  color: #f2c94c; /* Yellow brand color */
+}
+
+.webcam-card .webcam {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 1rem;
+}
+
+.detect-btn {
+  background: #f2c94c;
+  color: black;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.detect-btn:hover {
+  background: #ffd84f;
+}
+
+.result-card .emotion {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #f2c94c;
+}
+
+.result-card .confidence {
+  opacity: 0.8;
+}
